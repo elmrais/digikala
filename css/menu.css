@@ -1,0 +1,504 @@
+
+a{
+  font-family: digikala;
+  text-decoration: none;
+}
+
+div.header > div.menu {
+    width: inherit;
+    height: 44px;
+    background-color: #ffffff;
+    line-height: 44px;
+    padding: 0 16px;
+    position: absolute;
+  }
+  div.header > div.menu > nav{
+    width: inherit;
+    height: inherit;
+    background-color: #ffffff;
+    display: inline-block;
+    line-height: 44px;
+    position: relative;
+    
+  }
+  div.header > div.menu > nav>ul{
+    background-color: #ffffff;
+  }
+  /* div.header > div.menu > nav>ul>li{
+    width: auto;
+    height: inherit;
+    background-color: bisque;
+    line-height: 44px;
+    padding: 0 10px;
+    display: inline-block;
+  }
+  div.header > div.menu > nav>ul>li>a::before{
+   content: url(../);
+  } */
+
+  div.header > div.menu > nav>div.first{
+
+    width: 861px;
+    height: inherit;
+    background-color: #ffffff;
+    display: inline-block;
+    position: relative;
+  }
+  div.header > div.menu > nav>div.second{
+    width: 173px;
+    height: 90%;
+    position: absolute;
+    left: 0;
+    position: absolute;
+    top: calc(50% - 90% / 2);
+
+  }
+
+  div.header > div.menu > nav>div.first>div:nth-of-type(1){
+    width: 145px;
+    height: inherit;
+    background-color:#ffffff;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+  }
+  div.header > div.menu > nav>div.first>div:nth-of-type(2){
+    width: 500px;
+    height: inherit;
+    background-color: #ffffff;
+    display: inline-block;
+    position: absolute;
+     left: 215px;
+  }
+
+  div.header > div.menu > nav>div.first>div:nth-of-type(3){
+    width: 215px;
+    height: inherit;
+    background-color: #ffffff;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+  }
+
+   
+  
+
+  div.header > div.menu > nav>div.first>div:nth-of-type(2)>div:nth-of-type(1){
+    width: 101px;
+    height: inherit;
+    position: absolute;
+    background-color: #ffffff;
+    right: 0;
+    line-height:44px ;
+    
+  }
+  div.header > div.menu > nav>div.first>div:nth-of-type(2)>div:nth-of-type(2){
+    width: 120px;
+    height: inherit;
+    position: absolute;
+    background-color: #ffffff;
+    right: 101px;
+
+  }
+  div.header > div.menu > nav>div.first>div:nth-of-type(2)>div:nth-of-type(3){
+    width: 162px;
+    height: inherit;
+    position: absolute;
+    background-color: #ffffff;
+    right: 221px;
+  }
+  div.header > div.menu > nav>div.first>div:nth-of-type(2)>div:nth-of-type(4){
+    width: 117px;
+    height: inherit;
+    position: absolute;
+    background-color: #ffffff;
+    left: 0px;
+  }
+
+  div.header > div.menu > nav>div.first>div:nth-of-type(3)>div:nth-last-of-type(1){
+    width: 90px;
+    height: inherit;
+    position: absolute;
+    background-color: #ffffff;
+    right: 0;
+
+  }
+  div.header > div.menu > nav>div.first>div:nth-of-type(3)>div:nth-last-of-type(2){
+    width: 124px;
+    height: inherit;
+    position: absolute;
+    background-color: #ffffff;
+    left:0 ;
+  }
+  div.child,div.child1,div.child2,div.child3,div.child4,div.child5,div.child6{
+    width: 0;
+    height: 2px;
+    background-color: rgb(239, 57, 78);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 250ms;
+    -webkit-transition: 250ms;
+    -moz-transition: 250ms;
+    -ms-transition: 250ms;
+    -o-transition: 250ms;
+}
+div.header > div.menu > nav>div.first>div:nth-of-type(1):hover>div.child{
+  width: 100%;
+}
+div.header > div.menu > nav>div.first>div:nth-of-type(2)>div:nth-of-type(1):hover>div.child1{
+  width: 100%;
+}
+div.header > div.menu > nav>div.first>div:nth-of-type(2)>div:nth-of-type(2):hover>div.child2{
+  width: 100%;
+}
+div.header > div.menu > nav>div.first>div:nth-of-type(2)>div:nth-of-type(3):hover>div.child3{
+  width: 100%;
+}
+div.header > div.menu > nav>div.first>div:nth-of-type(2)>div:nth-of-type(4):hover>div.child4{
+  width: 100%;
+}
+div.header > div.menu > nav>div.first>div:nth-of-type(3)>div:nth-of-type(1):hover>div.child5{
+  width: 100%;
+}
+div.header > div.menu > nav>div.first>div:nth-of-type(3)>div:nth-of-type(2):hover>div.child6{
+  width: 100%;
+}
+
+hr{
+  width: 20px;
+  height: 1px;
+  position: absolute;
+  top: 12px;
+  left: 0;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform-origin: left;
+}
+hr.pin{
+  width: 20px;
+  height: 0.5px;
+  position: absolute;
+  top: 31px;
+  right: 0;
+  transform-origin: right center;
+  transform: rotate(90deg);
+  -webkit-transform: right;
+  -moz-transform: right;
+  -ms-transform: right;
+  -o-transform: right;
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+}
+
+  li.kala{
+    width: inherit;
+    height: inherit;
+    background-color: #ffffff;
+    list-style: none;
+  }
+  div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>a.kala{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.15;
+    text-decoration: none;
+    font-family: digikala;
+    color: black;
+    position: absolute;
+    padding: 5px;
+    padding-right: 25px;
+  }
+  div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>a.kala>svg{
+   position: absolute;
+   right: 0;
+   top: 10px;
+  }
+  li:not(.kala){
+    width: inherit;
+    height: inherit;
+    background-color: #ffffff;
+    padding: 0 12px;
+    list-style: none;
+  }
+  div.header > div.menu > nav>div.first>div:nth-of-type(2)>div:nth-of-type(1)>li>a 
+    {
+    font-size: 13px;
+    position: absolute;
+    padding-right: 20px;
+    color: #62666d;
+  }
+  div.header > div.menu > nav>div.first>div:nth-of-type(2)>div:nth-of-type(1)>li>a>svg{
+    position: absolute;
+   right: -5px;
+  top: 12px;   
+  }
+  div.header > div.menu > nav>div.first>div:nth-of-type(2)>div:nth-of-type(2)>li>a{
+    font-size: 13px;
+    position: absolute;
+    padding-right: 20px;
+    color: #62666d;
+
+  }
+  div.header > div.menu > nav>div.first>div:nth-of-type(2)>div:nth-of-type(2)>li>a>svg{
+  position: absolute;
+  right: -5px;
+  top: 12px;
+  }
+  div.header > div.menu > nav>div.first>div:nth-of-type(2)>div:nth-of-type(3)>li>a{
+    font-size: 13px;
+    position: absolute;
+    padding-right: 27px;
+    color: #62666d;
+
+  }
+  div.header > div.menu > nav>div.first>div:nth-of-type(2)>div:nth-of-type(3)>li>a>svg{
+    position: absolute;
+    right: 0;
+  top: 12px;
+  }
+  div.header > div.menu > nav>div.first>div:nth-of-type(2)>div:nth-of-type(4)>li>a{
+    font-size: 13px;
+    position: absolute;
+    padding-right: 23px;
+    color: #62666d;
+
+  }
+  div.header > div.menu > nav>div.first>div:nth-of-type(2)>div:nth-of-type(4)>li>a>svg{
+    position: absolute;
+    top: 12px;
+    right: -2px;
+  }
+
+  div.header > div.menu > nav>div.first>div:nth-of-type(3)>div:nth-of-type(1)>li>a,  div.header > div.menu > nav>div.first>div:nth-of-type(3)>div:nth-of-type(2)>li>a
+    {
+    font-size: 13px;
+    position: absolute;
+    color: #62666d;
+
+  }
+  div.header > div.menu > nav>div.second>a{
+    font-size: 13px;
+    position: absolute;
+    color: #424750;
+    padding-right: 25px;
+    top: -4px;
+  }
+  div.header > div.menu > nav>div.second>a>svg{
+    position: absolute;
+    top: 10px;
+    right: 0;
+  }
+  div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box{
+    width: calc(99.3vw - 28px );
+    height: 420px;
+    background-color: #424750;
+    position: absolute;
+    top: 44.48px;
+    display: none;
+    border-bottom-left-radius: 10px;
+    box-shadow: 3px 3px 5px  black;
+    z-index: 999999;
+  }
+
+  div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala:hover>div.box{
+    display: block;
+    z-index: 99999;
+
+  }
+
+  div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul{
+    width: 15%;
+    height: inherit;
+    background-color: #ffffff;
+    list-style: none;
+    overflow-y: scroll;
+
+  }
+  div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li.menu{
+  width:100% ;
+  height: auto;
+  background-color: #ffffff;
+  list-style: none;
+  padding-top: 4px;
+  z-index: 999999;
+
+  }
+  div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li.menu>a{
+    font-size: 14px;
+    display: block;
+    color: #424750;
+    /* margin: 4px 12px; */
+  }
+
+
+  div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li.menu>a>svg{
+  margin-left: 8px;
+ fill: #424750;  
+  }
+  div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li.menu:hover{
+    background-color: rgb(247, 247, 248);
+  }
+
+  div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li.menu>a:hover{
+  color: rgb(238, 56, 78);
+  }
+
+  div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li.menu>a:hover>svg{
+    fill: rgb(238, 56, 78);
+  }
+  div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li.menu>div.mobile,  div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li.menu>div.digital,  div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(3)>div.khodro,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(4)>div.mod,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(5)>div.super,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(6)>div.nozad,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(7)>div.bumi,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(8)>div.salamat,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(9)>div.ash,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(10)>div.ketab,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(11)>div.safar
+
+
+    {
+    width: 85%;
+    height: 100%;
+    position: absolute;
+    background-color: #ffffff;
+    left: 0;
+    top: 0;
+    overflow-y: hidden;
+    border-bottom-left-radius: 10px;
+    display: none;
+  }
+  div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li.menu>div.mobile{
+    display: flex;
+  }
+  div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li.menu:hover>div.mobile
+    {
+    display: block;
+  }
+
+
+
+  div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li.menu>div.mobile>div{
+    width: 19%;
+    height: 100%;
+    display: inline-block;
+    background-color: #ffffff;
+    position: relative;
+    /* overflow-y: ;   */
+}
+   div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li.menu>div.mobile>div>a
+    {
+    position: absolute;
+    right: 15px;
+    font-size: 14px;
+    color: black;
+   }
+   div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li.menu>div.mobile>div>nav{
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    top: 50px;
+    background-color: #ffffff;
+    overflow-y: hidden;
+   }
+   div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li.menu>div.mobile>div>nav>ul>li.bold>a{
+    font-size: 15px;
+    color: black;
+   }
+
+   div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li.menu>div.mobile>div>nav>ul>li>a>span{
+   font-size: 17px;
+   margin-left: 5px;
+   color: rgb(255, 47, 20);
+}
+div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li.menu>div.mobile>div>nav>ul>li{
+  height: 35px;
+}
+
+div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li.menu>div.mobile>div>nav>ul>li>a{
+  font-size: 13px;
+  color: #62666d;
+}
+div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li.menu>div.mobile>div>nav>ul>li>a:hover{
+  color: rgb(255, 47, 20);
+}
+
+div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(2):hover>div.digital, div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(3):hover>div.khodro, div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(4):hover>div.mod,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(5):hover>div.super,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(6):hover>div.nozad,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(7):hover>div.bumi,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(8):hover>div.salamat,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(9):hover>div.ash,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(10):hover>div.ketab,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(11):hover>div.safar
+  {
+  display: block;
+}
+div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(2)>div.digital>div, div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(3)>div.khodro>div,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(4)>div.mod>div,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(5)>div.super>div,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(6)>div.nozad>div,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(7)>div.bumi>div,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(8)>div.salamat>div,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(9)>div.ash>div,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(10)>div.ketab>div,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(11)>div.safar>div
+  {
+  width: 19%;
+  height: 100%;
+  display: inline-block;
+  background-color: #ffffff;
+  position: relative;
+}
+div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(2)>div.digital>div>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(3)>div.khodro>div>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(4)>div.mod>div>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(5)>div.super>div>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(6)>div.nozad>div>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(7)>div.bumi>div>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(8)>div.salamat>div>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(9)>div.ash>div>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(10)>div.ketab>div>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(11)>div.safar>div>a
+
+  {
+  position: absolute;
+  right: 15px;
+  font-size: 14px;
+  color: black;
+}
+
+div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(2)>div.digital>div>nav,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(3)>div.khodro>div>nav,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(4)>div.mod>div>nav,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(5)>div.super>div>nav,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(6)>div.nozad>div>nav,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(7)>div.bumi>div>nav,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(8)>div.salamat>div>nav,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(9)>div.ash>div>nav,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(10)>div.ketab>div>nav,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(11)>div.safar>div>nav
+
+
+
+  {
+  width: 100%;
+  height: inherit;
+  position: absolute;
+  top: 50px;
+  background-color: #ffffff;
+  overflow-y: hidden;
+}
+div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(2)>div.digital>div>nav>ul>li.bold>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(3)>div.khodro>div>nav>ul>li.bold>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(4)>div.mod>div>nav>ul>li.bold>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(5)>div.super>div>nav>ul>li.bold>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(6)>div.nozad>div>nav>ul>li.bold>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(7)>div.bumi>div>nav>ul>li.bold>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(8)>div.salamat>div>nav>ul>li.bold>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(9)>div.ash>div>nav>ul>li.bold>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(10)>div.ketab>div>nav>ul>li.bold>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(11)>div.safar>div>nav>ul>li.bold>a{ 
+  font-size: 15px;
+  color: black;
+}
+  div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(2)>div.digital>div>nav>ul>li.bold>a>span,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(3)>div.khodro>div>nav>ul>li.bold>a>span,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(4)>div.mod>div>nav>ul>li.bold>a>span,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(5)>div.super>div>nav>ul>li.bold>a>span,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(6)>div.nozad>div>nav>ul>li.bold>a>span,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(7)>div.bumi>div>nav>ul>li.bold>a>span,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(8)>div.salamat>div>nav>ul>li.bold>a>span,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(9)>div.ash>div>nav>ul>li.bold>a>span,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(10)>div.ketab>div>nav>ul>li.bold>a>span,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(11)>div.safar>div>nav>ul>li.bold>a>span{
+    font-size: 17px;
+   margin-left: 5px;
+   color: rgb(255, 47, 20);
+  }
+  div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(2)>div.digital>div>nav>ul>li>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(3)>div.khodro>div>nav>ul>li>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(4)>div.mod>div>nav>ul>li>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(5)>div.super>div>nav>ul>li>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(6)>div.nozad>div>nav>ul>li>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(7)>div.bumi>div>nav>ul>li>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(8)>div.salamat>div>nav>ul>li>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(9)>div.ash>div>nav>ul>li>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(10)>div.ketab>div>nav>ul>li>a,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(11)>div.safar>div>nav>ul>li>a{
+    font-size: 13px;
+    color: #62666d;
+  }
+  div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(2)>div.digital>div>nav>ul>li,  div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(3)>div.khodro>div>nav>ul>li, div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(4)>div.mod>div>nav>ul>li, div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(5)>div.super>div>nav>ul>li, div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(6)>div.nozad>div>nav>ul>li,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(7)>div.bumi>div>nav>ul>li,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(8)>div.salamat>div>nav>ul>li,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(9)>div.ash>div>nav>ul>li,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(10)>div.ketab>div>nav>ul>li,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(11)>div.safar>div>nav>ul>li{
+
+    height: 35px;
+
+  }
+  div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(2)>div.digital>div>nav>ul>li>a:hover , div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(3)>div.khodro>div>nav>ul>li>a:hover, div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(4)>div.mod>div>nav>ul>li>a:hover,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(5)>div.super>div>nav>ul>li>a:hover,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(6)>div.nozad>div>nav>ul>li>a:hover,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(7)>div.bumi>div>nav>ul>li>a:hover,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(8)>div.salamat>div>nav>ul>li>a:hover,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(9)>div.ash>div>nav>ul>li>a:hover,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(10)>div.ketab>div>nav>ul>li>a:hover,div.header > div.menu > nav>div.first>div:nth-of-type(1)>li.kala>div.box>ul>li:nth-of-type(11)>div.safar>div>nav>ul>li>a:hover{
+
+    color: rgb(255, 47, 20);
+
+  }
+ 
+
+ 
+
+
+ 
+
+
+
+
+
+
+   
+   
+
+   
+
+
+ 
+
+  
+   
+  
+ 
+
